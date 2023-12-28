@@ -1,106 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>lighten</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
+   
    <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-      </div>
-      <!-- end loader --> 
-      <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="header">
-            <div class="head_top">
-               <div class="container">
-                  <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                       <div class="top-box">
-                        <ul class="sociel_link">
-                         <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
-                     </ul>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                       <div class="top-box">
-                        <p>long established fact that a reader will be </p>
-                    </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                  <div class="full">
-                     <div class="center-desk">
-                        <div class="logo"> <a href="index.html"><img src="images/logo.jpg" alt="logo"/></a> </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-7 col-lg-7 col-md-9 col-sm-9">
-                  <div class="menu-area">
-                     <div class="limit-box">
-                        <nav class="main-menu">
-                           <ul class="menu-area-main">
-                              <li> <a href="index.html">Home</a> </li>
-                              <li class="active"> <a href="about.html">About</a> </li>
-                              <li> <a href="product.html">product</a> </li>
-                              <li> <a href="blog.html"> Blog</a> </li>
-                              <li> <a href="contact.html">Contact</a> </li>
-                              <li class="mean-last"> <a href="#contact">signup</a> </li>
-                               
-                           </ul>
-                        </nav>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                  <li><a class="buy" href="#">Login</a></li>
-               </div>
-            </div>
-         </div>
-         <!-- end header inner --> 
-      </header>
+      
+   <?php $paginaAtual = 'about'; include_once './header-main.php' ?>
+
       <!-- end header -->
        <div class="brand_color">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>about</h2>
+                        <h2>Sobre-Nós</h2>
                     </div>
                 </div>
             </div>
@@ -119,24 +30,39 @@
          </dir>
           <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div class="about_box">
-               <h3>Who is Lighten</h3>
-               <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum.</p>
-               <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+               <h3>O que é a Vision Guard</h3>
+               <p>
+               Bem-vindo à Vision Guard, sua porta de entrada para uma educação de qualidade e transformadora! Com menos de 1 ano de operação, a Vision Guard já se destaca como uma referência em cursos técnicos, administrativos e de línguas. Nossa missão é impulsionar o potencial de cada aluno, oferecendo programas educacionais inovadores e alinhados com as demandas do mercado.
+               </p>
+               <p>
+               Nos cursos técnicos, proporcionamos uma abordagem prática e atualizada para preparar os alunos para desafios profissionais específicos. Nossos instrutores experientes e materiais de alta qualidade garantem uma experiência de aprendizado envolvente e eficaz.
+               </p>
+               <p>
+               Na área administrativa, focamos no desenvolvimento de habilidades essenciais para o ambiente corporativo moderno. Oferecemos cursos que abrangem desde gestão de projetos até técnicas avançadas de comunicação, capacitando nossos alunos a se destacarem em suas carreiras.
+               </p>
+               <p>
+               Além disso, a Vision Guard orgulha-se de seu compromisso com a diversidade cultural através de nossos cursos de línguas. Com uma abordagem comunicativa e culturalmente enriquecedora, nossos programas de idiomas proporcionam aos alunos a confiança necessária para se comunicarem eficazmente em um mundo globalizado.
+               </p>
+               <p>
+               Venha fazer parte da Vision Guard, onde a excelência educacional se encontra com a inovação. Estamos moldando futuros profissionais e ampliando horizontes, e é com entusiasmo que convidamos você a embarcar nessa jornada educacional conosco. Seu sucesso começa aqui na Vision Guard!
+               </p>
+               
             </div>
          </dir> 
       </div>
    </div>
 </div>
 
+
 <!-- CHOOSE  -->
-      <div class="whyschose">
+<div class="whyschose">
          <div class="container">
 
             <div class="row">
                <div class="col-md-7 offset-md-3">
                   <div class="title">
-                     <h2>Why <strong class="black">choose us</strong></h2>
-                     <span>Fastest repair service with best price!</span>
+                     <h2>Porquê <strong class="black">nos escolher</strong></h2>
+                     <span>Escolha a Visão que te Diferencia ao Melhor Preço!</span>
                   </div>
                </div>
             </div>
@@ -149,33 +75,33 @@
                <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
                      <i><img src="icon/1.png"/></i>
-                     <h3>Data recovery</h3>
-                     <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
+                     <h3>Cursos Técnicos</h3>
+                     <p>Cursos Técnicos na Velocidade do Conhecimento. Potencialize sua carreira, conquiste o futuro hoje!</p>
                   </div>
                </dir>
                <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
                      <i><img src="icon/2.png"/></i>
-                     <h3>Computer repair</h3>
-                     <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
+                     <h3>Cursos Administrativos</h3>
+                     <p>Construa seu caminho para o sucesso com nossos Cursos Administrativos. Domine as habilidades, conquiste o mercado, lidere o amanhã!</p>
                   </div>
                </dir>
                <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
                      <i><img src="icon/3.png"/></i>
-                     <h3>Mobile service</h3>
-                     <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
+                     <h3>Cursos de Línguas</h3>
+                     <p>Na vision guard temos uma gama de idiomas para dar o upgrade que a sua carreira precisa!</p>
                   </div>
                </dir>
                <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
                      <i><img src="icon/4.png"/></i>
-                     <h3>Network solutions</h3>
-                     <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
+                     <h3>Pacote Empresarial</h3>
+                     <p>Pretende uma abordagem para seus profissionais? fale connosco, temos planos exclusivos.</p>
                   </div>
                </dir>
                <div class="col-md-12">
-                  <a class="read-more">Read More</a>
+                  <a class="read-more">Ler Mais</a>
                </div>
             </div>
          </div>
@@ -183,14 +109,14 @@
       </div>
 <!-- end CHOOSE -->
 
-      <!-- service --> 
-      <div class="service">
+       <!-- service --> 
+       <div class="service">
          <div class="container">
             <div class="row">
                <div class="col-md-8 offset-md-2">
                   <div class="title">
-                     <h2>service <strong class="black">proces</strong></h2>
-                     <span>Easy and effective way to get your device repaired.</span>
+                     <h2>Nossos <strong class="black">Serviços</strong></h2>
+                     <span>Cursos rápidos, com maior eficiência</span>
                   </div>
                </div>
             </div>
@@ -198,43 +124,43 @@
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
                      <i><img src="icon/service1.png"/></i>
-                     <h3>Fast service</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                     <h3>Cursos Rápidos</h3>
+                     <p>Levamos em conta que o aprendizado deve ser um processo celere </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
                      <i><img src="icon/service2.png"/></i>
-                     <h3>Secure payments</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                     <h3>Pagamentos Seguros</h3>
+                     <p>Pague apenas pelo essencial, sem taxas adicionais, apenas pelo curso! </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
                      <i><img src="icon/service3.png"/></i>
-                     <h3>Expert team</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                     <h3>Formadores Experters</h3>
+                     <p>Temos formadores capacitados que podem ensinar com o maior grau de profissionalismo.    </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
                      <i><img src="icon/service4.png"/></i>
-                     <h3>Affordable services</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                     <h3>Cursos Acessíveis</h3>
+                     <p>Preços que cabem no bolso de qualquer um, só aqui na <strong>vision guard</strong> </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
                      <i><img src="icon/service5.png"/></i>
-                     <h3>90 Days warranty</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                     <h3>90 Dias de Devolução</h3>
+                     <p>Políticas de devolução em casos de insatisfação ou motivos expressos! </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
                      <i><img src="icon/service6.png"/></i>
-                     <h3>Award winning</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                     <h3>Excelencia Nas Classificações</h3>
+                     <p>Avaliações e Classificações bem assentes por parte dos nossos clientes. </p>
                   </div>
                </div>
             </div>
@@ -244,69 +170,8 @@
 
       
       <!--  footer --> 
-      <footr>
-         <div class="footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-6 offset-md-3">
-                     <ul class="sociel">
-                         <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                     </ul>
-                  </div>
-            </div>
-            <div class="row">
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="contact">
-                     <h3>conatct us</h3>
-                     <span>123 Second Street Fifth Avenue,<br>
-                       Manhattan, New York
-                        +987 654 3210</span>
-                  </div>
-               </div>
-                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="contact">
-                     <h3>ADDITIONAL LINKS</h3>
-                     <ul class="lik">
-                         <li> <a href="#">About us</a></li>
-                         <li> <a href="#">Terms and conditions</a></li>
-                         <li> <a href="#">Privacy policy</a></li>
-                         <li> <a href="#">News</a></li>
-                          <li> <a href="#">Contact us</a></li>
-                     </ul>
-                  </div>
-               </div>
-                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="contact">
-                     <h3>service</h3>
-                      <ul class="lik">
-                    <li> <a href="#"> Data recovery</a></li>
-                         <li> <a href="#">Computer repair</a></li>
-                         <li> <a href="#">Mobile service</a></li>
-                         <li> <a href="#">Network solutions</a></li>
-                          <li> <a href="#">Technical support</a></li>
-                  </div>
-               </div>
-                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="contact">
-                     <h3>IT NEXT THEME</h3>
-                     <span>Tincidunt elit magnis <br>
-                     nulla facilisis. Dolor <br>
-                  sagittis maecenas. <br>
-               Sapien nunc amet <br>
-            ultrices, </span>
-                  </div>
-               </div>
-            </div>
-         </div>
-            <div class="copyright">
-               <p>Copyright 2019 All Right Reserved By <a href="https://html.design/">Free html Templates</a> Distributed By <a href="https://themewagon.com">ThemeWagon </a></p>
-            </div>
-         
-      </div>
-      </footr>
+      
+   <?php include_once "./footer.php"; ?>
       <!-- end footer -->
       <!-- Javascript files--> 
       <script src="js/jquery.min.js"></script> 

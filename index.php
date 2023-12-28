@@ -1,34 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Vison Guard - Cursos Profissionais</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
+   
    <!-- body -->
    <body class="main-layout">
       <!-- loader  -->
@@ -37,7 +9,7 @@
       </div> -->
       <!-- end loader --> 
       <!-- header -->
-
+      <?php $paginaAtual = 'inicio'; include_once './header-main.php' ?>
       <!-- end header -->
       <section class="slider_section">
          <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
@@ -394,71 +366,7 @@
          </div>
       </div>
       <!-- end map --> 
-      <!--  footer --> 
-
-
-
-
-      <footr>
-         <div class="footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-6 offset-md-3">
-                     <ul class="sociel">
-                         <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                     </ul>
-                  </div>
-            </div>
-            <div class="row">
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="contact">
-                     <h3>Contacte-Nos</h3>
-                     <span>Centralidade do Kilamba Bloco H, Ed H1 apt 04,<br>
-                       Luanda, Angola<br>
-                        +9xx xxx xxx</span>
-                  </div>
-               </div>
-                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="contact">
-                     <h3>LINKS ADICIONAIS</h3>
-                     <ul class="lik">
-                         <li> <a href="#">Sobre Nós</a></li>
-                         <li> <a href="#">Termos e condições</a></li>
-                         <li> <a href="#">Políticas de Privacidade</a></li>
-                         <li> <a href="#">Novidades</a></li>
-                          <li> <a href="#">Contacte-Nos</a></li>
-                     </ul>
-                  </div>
-               </div>
-                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="contact">
-                     <h3>Cursos</h3>
-                      <ul class="lik">
-                    <li> <a href="#"> Excel Avançado</a></li>
-                         <li> <a href="#">Programação Web</a></li>
-                         <li> <a href="#">Desenvolvimento Mobile</a></li>
-                         <li> <a href="#">Contabilidade Geral</a></li>
-                          <li> <a href="#">Power BI</a></li>
-                  </div>
-               </div>
-                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="contact">
-                     <h3>Sobre</h3>
-                     <span>Os melhores cursos, ao menor preço, navegue pela nossa gama de cursos. </span>
-                  </div>
-               </div>
-            </div>
-         </div>
-            <div class="copyright">
-               <p>Copyright 2024 Todos os direitos reservados By <a href="#">SafeQ</a> Distribuido Por <a href="#">SafeQ </a></p>
-            </div>
-         
-      </div>
-      </footr>
-      <!-- end footer -->
+   <?php include_once "./footer.php"; ?>
       <!-- Javascript files--> 
       <script src="js/jquery.min.js"></script> 
       <script src="js/popper.min.js"></script> 
